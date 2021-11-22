@@ -5,7 +5,7 @@
 #include "MQTTClient.h"
 
 #define ADDRESS "tcp://raspberrypi.local:1883"
-#define CLIENTID "ExampleClientpub"
+#define CLIENTID "ExampleClientsub"
 #define TOPIC "MQTT"
 #define PAYLOAD "hello world"
 #define QOS 1
